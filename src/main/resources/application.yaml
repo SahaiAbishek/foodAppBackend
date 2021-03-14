@@ -1,0 +1,13 @@
+server:
+    port: 12345
+    servlet:
+        context-path: /foodApp
+spring:
+    data:
+        mongodb:
+            uri: mongodb://10.0.0.54:27017/foodApp
+amazonProperties:
+  endpointUrl: https://s3.us-east-2.amazonaws.com
+  accessKey: AKIARKON4TUESRPZ4KH5
+  secretKey: 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
+  bucketName: abhi-food-app
